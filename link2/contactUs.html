@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Get In Touch</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="Menu">
+        <h1>Contact Us</h1>
+        <form>
+            <div>
+                <label for="fullName">FULL NAME *</label>
+                <input type="text" id="fullName" name="fullName" placeholder="Enter Your Name"/>
+            </div>
+          <div class="name-email-container">
+            <div>
+              <label for="email">EMAIL *</label>
+              <input type="email" id="email" name="email" placeholder="Enter Your Email" />
+            </div>
+            <div>
+              <label for="phone">PHONE *</label>
+              <input type="text" id="phone" name="phone" placeholder="Enter Phone Number" />
+            </div>
+          </div>
+          <div class="radioForm">
+              <form>
+                <input type="radio" id="eCommerce-Business" name="needed_services" value="eCommerce_Business">
+                <label for="eCommerce-Business">eCommerce Business</label><br>
+                <input type="radio" id="ui_ux" name="needed_services" value="ui_ux">
+                <label for="css">UI/UX Design</label><br>
+                <input type="radio" id="onlineServices" name="needed_services" value="onlineServices">
+                <label for="javascript">Online Services</label>
+              </form>
+          </div>
+          <div class="messages">
+               <label for="message">Message</label>
+              <textarea type="text" id="message" name="message" placeholder="Enter message" rows="4" cols="50"></textarea>
+          
+          </div>
+          <input type="submit" value="SUBMIT" />
+        </form>
+      </div>
+  </body>
+</html>

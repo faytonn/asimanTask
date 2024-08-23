@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: monospace;
+}
+
+body {
+  background-color: #e6e6e6;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.Menu {
+  background-color: #fff;
+  opacity: 0.95;
+  padding: 30px;
+  border-radius: 0.5%;
+  box-shadow: 0px 20px 6px rgba(0, 0, 0, 0.1);
+  width: 75vw;
+  height: 85vh;
+  position: relative;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 70px;
+  width: 100%;
+}
+
+label {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+input[type=text],
+input[type=email] {
+  font-size: 18px;
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  width: 100%;
+}
+
+.name-email-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.name-email-container label {
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.name-email-container input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.radioForm {
+  display: block;
+  position: relative;
+  padding-left: 10px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+}
+
+.messages {
+  margin-top: 50px;
+  font-size: 18px;
+  margin-bottom: 40px;
+  width: 100%;
+  min-height: 120px;
+  width: 100%;
+}
+
+input[type=submit] {
+  background-color: black;
+  text-align: center;
+  display: block;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 0.5px;
+  cursor: pointer;
+  font-size: 22px;
+  position: absolute;
+  bottom: 20px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 120px;
+  height: 40px;
+}
+
+input[type=submit]:hover {
+  background-color: white;
+  color: black;
+  border: solid 0.5px;
+}/*# sourceMappingURL=style.css.map */
